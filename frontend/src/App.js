@@ -12,7 +12,7 @@ function App() {
     if (!glucose) return;
 
     try {
-      const response = await fetch("http://insulin-backend.onrender.com/api/calculate", {
+      const response = await fetch("https://insulin-calculator-gu4j.onrender.com/api/calculate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
